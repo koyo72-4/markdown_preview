@@ -1,0 +1,50 @@
+/* #preview {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: bottom;
+}
+#source {
+    width: 300px;
+    height: 300px;
+    vertical-align: bottom;
+}
+#render {
+    display: block;
+}
+#fontButton {
+    display: block;
+} */
+
+#source {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 5px dotted rgb(43, 4, 58);
+    padding: 10 px;
+    font-size: 20pt;
+}
+#preview {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 5px dotted rgb(43, 4, 58);
+    padding: 10px;
+    overflow-y: scroll;
+    font-family: monospace;
+}
+
+#render {
+    display: block;
+    padding: 10px;
+    width: 220px;
+    height: 40px;
+    color: aqua;
+    background-color: black;
+    font-size: 22pt;
+    font-stretch: ultra-expanded;
+    font-family: Verdana;
+    text-align: center;
+    line-height: 20px;
+}
