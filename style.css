@@ -16,7 +16,7 @@
 #fontButton {
     display: block;
 } */
-
+/* 
 #source {
     width: 400px;
     height: 400px;
@@ -47,4 +47,89 @@
     font-family: Verdana;
     text-align: center;
     line-height: 20px;
+} */
+
+
+
+#source {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 5px dotted rgb(43, 4, 58);
+    font-size: 20pt;
+}
+
+#preview {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 5px dotted rgb(43, 4, 58);
+    padding: 2px;
+    overflow-y: scroll;
+}
+.title {
+    font-family: monospace;
+    color: white;
+    text-shadow: 6px 4px 8px #25024d;
+}
+
+#renderButton {
+    display: inline-block;
+    width: relative;
+    height: 40px;
+    color: rgb(50, 10, 77);
+    background-color: f001;
+    font-size: 14pt;
+    font-stretch: ultra-expanded;
+    font-family: Verdana;
+    text-align: center;
+    line-height: 50%;
+    text-shadow: 1px 1px 1px #25024d;
+}
+
+#colorButton {
+    display: inline-block;
+    width: relative;
+    height: 40px;
+    color: rgb(50, 10, 77);
+    background-color: f001;
+    font-size: 14pt;
+    font-stretch: ultra-expanded;
+    font-family: Verdana;
+    text-align: center;
+    line-height: 50%;
+    position: relative;
+    text-shadow: 1px 1px 1px #25024d;
+}
+
+#fontButton {
+    display: inline-block;
+    width: relative;
+    height: 40px;
+    color: rgb(50, 10, 77);
+    background-color: f001;
+    font-size: 14pt;
+    font-stretch: ultra-expanded;
+    font-family: Verdana;
+    text-align: center;
+    line-height: 50%;
+    position: relative;
+    text-shadow: 1px 1px 1px #25024d;
+}
+
+/*-------This button makes the preview window disappear when clicked ------------*/
+
+#dontButton {
+    display: inline-block;
+    width: relative;
+    height: 40px;
+    color: rgb(50, 10, 77);
+    background-color: f001;
+    font-size: 14pt;
+    font-stretch: ultra-expanded;
+    font-family: Verdana;
+    text-align: center;
+    line-height: 50%;
+    position: relative;
+    text-shadow: 1px 1px 1px #25024d;
 }
